@@ -70,6 +70,7 @@
     <Compile Include="scripts_libs\Singletons\Item.cs" />
     <Compile Include="scripts_libs\Singletons\Creator.cs" />
     <Compile Include="scripts_libs\Events\Events.cs" />
+    <Compile Include="scripts_libs\Singletons\PlayerSettings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="scripts_libs\Singletons\__Readme.txt" />
