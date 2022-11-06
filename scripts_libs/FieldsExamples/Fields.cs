@@ -6,7 +6,7 @@ public class Box : MonoBehaviour {
 
     [Header("Dynamit")] // Устанавливает заголовок в инспекторе 
 
-    [Range(0, 2)] public int Health = 2;
+    [Range(0, 2)] public int Health = 5;
 
     [SerializeField] private float _affectRadius = 1.5f;
 
