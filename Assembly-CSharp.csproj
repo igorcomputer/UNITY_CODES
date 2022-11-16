@@ -62,10 +62,26 @@
     <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\ObjectRelations\is-a_contsructor.cs" />
     <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\ObjectRelations\is-a.cs" />
     <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\ObjectRelations\has-a.cs" />
-    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\Virtual_methods\virtual_001.cs" />
-    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\Virtual_methods\virtual_002.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\VirtualMethods\virtual_001.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\VirtualMethods\virtual_002.cs" />
     <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v1\FunctionalComposition.cs" />
     <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v1\VendingMachine_001.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\AddMoney.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\BuyGood.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\ShowCommands.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\Login.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\GetChange.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\Router.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\Request.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\ConsoleCommandInput.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\ICommandInput.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\FreeOrder.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\ICommand.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\Order.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\IOrder.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\WendingMachine.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\Good.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\Program.cs" />
     <Compile Include="scripts_libs\FieldsExamples\Fields.cs" />
     <Compile Include="scripts_libs\FieldsExamples\FieldsComplex.cs" />
     <Compile Include="scripts_libs\SaveSystems\SaveProgress\Progress.cs" />
@@ -794,7 +810,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\readme.txt" />
+    <Content Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\__readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
