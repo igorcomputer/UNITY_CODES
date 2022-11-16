@@ -57,6 +57,15 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\Interfaces_Abstracts\interface_example_001.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\Interfaces_Abstracts\abstract_example_001.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\ObjectRelations\is-a_contsructor.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\ObjectRelations\is-a.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\ObjectRelations\has-a.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\Virtual_methods\virtual_001.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\Virtual_methods\virtual_002.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v1\FunctionalComposition.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v1\VendingMachine_001.cs" />
     <Compile Include="scripts_libs\FieldsExamples\Fields.cs" />
     <Compile Include="scripts_libs\FieldsExamples\FieldsComplex.cs" />
     <Compile Include="scripts_libs\SaveSystems\SaveProgress\Progress.cs" />
@@ -71,6 +80,7 @@
     <Compile Include="scripts_libs\Singletons\Creator.cs" />
     <Compile Include="scripts_libs\Events\Events.cs" />
     <Compile Include="scripts_libs\Singletons\PlayerSettings.cs" />
+    <Compile Include="scripts_libs\Sounds\SoundSnippets.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="scripts_libs\Singletons\__Readme.txt" />
@@ -783,7 +793,9 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\readme.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
