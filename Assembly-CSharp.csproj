@@ -82,6 +82,14 @@
     <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\WendingMachine.cs" />
     <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\Good.cs" />
     <Compile Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\Program.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\night_train_code\solid\4_ISP\good_isp.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\night_train_code\solid\4_ISP\bad_isp.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\night_train_code\solid\3_LSP\good_lsp.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\night_train_code\solid\3_LSP\bad_lsp.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\night_train_code\solid\2_OCP\UnitMovable.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\night_train_code\solid\5_DIP\InputService.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\night_train_code\solid\5_DIP\Program.cs" />
+    <Compile Include="scripts_libs\CodeSnippets\night_train_code\solid\5_DIP\UnitMovable.cs" />
     <Compile Include="scripts_libs\FieldsExamples\Fields.cs" />
     <Compile Include="scripts_libs\FieldsExamples\FieldsComplex.cs" />
     <Compile Include="scripts_libs\SaveSystems\SaveProgress\Progress.cs" />
@@ -812,6 +820,7 @@
   <ItemGroup>
     <Content Include="scripts_libs\CodeSnippets\csharpbook_sakutin\WendingMachine\v2\__readme.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
