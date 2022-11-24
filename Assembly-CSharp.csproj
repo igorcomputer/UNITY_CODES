@@ -90,6 +90,9 @@
     <Compile Include="scripts_libs\CodeSnippets\night_train_code\solid\5_DIP\InputService.cs" />
     <Compile Include="scripts_libs\CodeSnippets\night_train_code\solid\5_DIP\Program.cs" />
     <Compile Include="scripts_libs\CodeSnippets\night_train_code\solid\5_DIP\UnitMovable.cs" />
+    <Compile Include="scripts_libs\Coroutines\CoroutineMove\TestCoroutineMove.cs" />
+    <Compile Include="scripts_libs\Coroutines\CoroutineTest1\CoroutineTest1.cs" />
+    <Compile Include="scripts_libs\Coroutines\CoroutineTest1\Utils.cs" />
     <Compile Include="scripts_libs\FieldsExamples\Fields.cs" />
     <Compile Include="scripts_libs\FieldsExamples\FieldsComplex.cs" />
     <Compile Include="scripts_libs\SaveSystems\SaveProgress\Progress.cs" />
@@ -105,6 +108,7 @@
     <Compile Include="scripts_libs\Events\Events.cs" />
     <Compile Include="scripts_libs\Singletons\PlayerSettings.cs" />
     <Compile Include="scripts_libs\Sounds\SoundSnippets.cs" />
+    <Compile Include="scripts_libs\_Intro\Operators\data_types_examples.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="scripts_libs\Singletons\__Readme.txt" />
